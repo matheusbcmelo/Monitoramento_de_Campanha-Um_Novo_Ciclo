@@ -11,8 +11,11 @@ O objetivo principal deste projeto foi monitorar e analisar os dados gerados pel
 
 ## 📋 Descrição do Projeto
 Campanha de Rebranding: A campanha visava reposicionar a marca Holística, reforçando seus valores e sua presença no mercado de manipulação de medicamentos.
+
 Plataforma Utilizada: Meta Ads (Facebook e Instagram).
+
 Período de Execução: 21/08/2024 até 13/09/2024.
+
 Localidade: Foco na região da Baixada Santista.
 
 ---
@@ -21,9 +24,13 @@ Localidade: Foco na região da Baixada Santista.
 Os dados coletados e analisados no projeto incluem:
 
 Impressões: Número total de exibições dos anúncios.
+
 Alcance: Número total de pessoas impactadas pelos anúncios.
+
 Engajamento: Engajamento gerado pelos anúncios.
+
 Distribuição Demográfica: Análise do público-alvo por faixa etária, gênero e localização.
+
 CPC (Custo por Cliques): Valor médio pago por cada clique nos anúncios.
 
 ---
@@ -32,8 +39,11 @@ CPC (Custo por Cliques): Valor médio pago por cada clique nos anúncios.
 As ferramentas usadas para análise e desenvolvimento do projeto incluem:
 
 Power BI: Para visualização e análise dos dados da campanha.
+
 Meta Ads Manager: Para coleta de dados e métricas da campanha.
+
 Microsoft Excel: Para organização inicial dos dados.
+
 GitHub: Para versionamento e compartilhamento do projeto.
 
 ## 📧 Contato
