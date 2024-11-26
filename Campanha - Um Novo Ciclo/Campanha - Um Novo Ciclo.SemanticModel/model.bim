@@ -1,0 +1,726 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Anúncios Prévia\",\"Anúncios Campanha\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1004.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "Anúncios Prévia",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Conjunto de Anúncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "efe7a013-c571-44ef-8b72-5246bde60e2a",
+            "sourceColumn": "Conjunto de Anúncio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Anúncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8191d9e9-b8bb-49df-b38c-a84cc363dac1",
+            "sourceColumn": "Anúncio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Faixa Etária",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3fa51769-dfc8-42ac-8150-2d6d8130514d",
+            "sourceColumn": "Faixa Etária",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gênero",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "48156d1f-f48d-4dfa-bfb0-f8f8fd5395bc",
+            "sourceColumn": "Gênero",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Alcance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3dea109a-939a-49c7-a8e6-784cf2bbb314",
+            "sourceColumn": "Alcance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Impressões",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "abe4cad0-9514-4169-8b32-2972dbc8c647",
+            "sourceColumn": "Impressões",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Frequência",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "cbb09920-dbe8-4054-98a4-bd15bd33893e",
+            "sourceColumn": "Frequência",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tipo de resultado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a7bc1903-9f91-40bb-8424-5b41a823aee2",
+            "sourceColumn": "Tipo de resultado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Resultados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "af4db452-81a6-437d-9850-20b52dd235c3",
+            "sourceColumn": "Resultados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Valor usado (BRL)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f0ecf7b5-6771-4967-8f70-d07e17c2c799",
+            "sourceColumn": "Valor usado (BRL)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Custo por resultado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f6f738b7-b539-41d0-80a5-a74a319d2b23",
+            "sourceColumn": "Custo por resultado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CPC (custo por clique no link)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f17d24d8-ec54-4d59-aa4d-7513c12c8e3d",
+            "sourceColumn": "CPC (custo por clique no link)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CPM (custo por 1.000 impressões)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9e5db79e-afcb-43d6-ab54-877ae191592b",
+            "sourceColumn": "CPM (custo por 1.000 impressões)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cliques no link",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1886c7aa-e716-4860-80b3-438ae5a3cbc2",
+            "sourceColumn": "Cliques no link",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Seguidores ou curtidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "79d7587b-dfd9-474a-95f6-5e67be2411b7",
+            "sourceColumn": "Seguidores ou curtidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Engajamento com a Página",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a6f346ec-72ba-4b9a-a93e-b2a75b7fb642",
+            "sourceColumn": "Engajamento com a Página",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CPC (todos)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "989e7658-7db8-4424-8cd3-8f1230f71da2",
+            "sourceColumn": "CPC (todos)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ThruPlays",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "270a3983-bd52-4f1e-bba8-daa02ca74c10",
+            "sourceColumn": "ThruPlays",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CTR (todos)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e5438753-0e08-4084-9975-d91d6d7d05da",
+            "sourceColumn": "CTR (todos)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Index",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ba13d47f-325b-4c59-9f63-a742f63a55cd",
+            "sourceColumn": "Index",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "693be7e2-32ee-4280-95c0-6df6983ed450",
+        "partitions": [
+          {
+            "name": "Anúncios Prévia",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"D:\\Holística - Matheus (Backup Março 2024)\\Projetos\\Projetos PowerBI\\Campanha - Um Novo Ciclo\\Um-Novo-Ciclo.xlsx\"), null, true),",
+                "    #\"Raw Data Report_Sheet\" = Source{[Item=\"Raw Data Report\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Raw Data Report_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Nome da campanha\", type text}, {\"Nome do conjunto de anúncios\", type text}, {\"Idade\", type text}, {\"Gênero\", type text}, {\"Nome do anúncio\", type text}, {\"Status de veiculação\", type text}, {\"Nível de veiculação\", type text}, {\"Alcance\", Int64.Type}, {\"Impressões\", Int64.Type}, {\"Frequência\", type number}, {\"Configuração de atribuição\", type text}, {\"Tipo de resultado\", type text}, {\"Resultados\", Int64.Type}, {\"Valor usado (BRL)\", type number}, {\"Custo por resultado\", type number}, {\"Início\", type date}, {\"Término\", type text}, {\"CPC (custo por clique no link)\", type text}, {\"CPM (custo por 1.000 impressões)\", type number}, {\"Cliques no link\", type text}, {\"Seguidores ou curtidas\", Int64.Type}, {\"Engajamento com a Página\", Int64.Type}, {\"CPC (todos)\", type number}, {\"ThruPlays\", Int64.Type}, {\"CTR (todos)\", type number}, {\"Início dos relatórios\", type date}, {\"Término dos relatórios\", type date}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Conjunto de Anúncio\", each if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 01\") then \"Conjunto 1\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 02\") then \"Conjunto 2\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 03\") then \"Conjunto 3\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 04\") then \"Conjunto 4\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 05\") then \"Conjunto 5\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 06\") then \"Conjunto 6\" else null),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Conditional Column\",{\"Nome da campanha\", \"Nome do conjunto de anúncios\", \"Conjunto de Anúncio\", \"Nome do anúncio\", \"Idade\", \"Gênero\", \"Status de veiculação\", \"Nível de veiculação\", \"Alcance\", \"Impressões\", \"Frequência\", \"Configuração de atribuição\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"Início\", \"Término\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\", \"Início dos relatórios\", \"Término dos relatórios\"}),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Reordered Columns\",{{\"Nome do conjunto de anúncios\", Order.Ascending}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Sorted Rows\",{\"Nome do conjunto de anúncios\", \"Nome da campanha\"}),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Removed Columns\", \"Anúncio\", each if Text.EndsWith([Nome do anúncio], \"Ciclo\") then \"Ad Completo\" else if Text.Contains([Nome do anúncio], \"curto\") then \"Ad Curto\" else if Text.Contains([Nome do anúncio], \"Atletas\") then \"Ad Atletas\" else if Text.Contains([Nome do anúncio], \"Prévia\") then \"Ad Prévia\" else if Text.Contains([Nome do anúncio], \"Lab\") then \"Ad Laboratório\" else null),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Added Conditional Column1\",{\"Início dos relatórios\", \"Término dos relatórios\", \"Configuração de atribuição\", \"Status de veiculação\", \"Nível de veiculação\"}),",
+                "    #\"Reordered Columns1\" = Table.ReorderColumns(#\"Removed Columns1\",{\"Conjunto de Anúncio\", \"Nome do anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"Início\", \"Término\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Removed Columns2\" = Table.RemoveColumns(#\"Reordered Columns1\",{\"Nome do anúncio\", \"Início\", \"Término\"}),",
+                "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Removed Columns2\", \"Gênero PT\", each if [Gênero] = \"male\" then \"Homem\" else if [Gênero] = \"female\" then \"Mulher\" else if [Gênero] = \"unknown\" then \"Desconhecido\" else null),",
+                "    #\"Reordered Columns2\" = Table.ReorderColumns(#\"Added Conditional Column2\",{\"Conjunto de Anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Gênero PT\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Removed Columns3\" = Table.RemoveColumns(#\"Reordered Columns2\",{\"Gênero\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns3\",{{\"Gênero PT\", \"Gênero\"}}),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Renamed Columns\", \"Index\", 1, 1, Int64.Type),",
+                "    #\"Reordered Columns3\" = Table.ReorderColumns(#\"Added Index\",{\"Index\", \"Conjunto de Anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns3\", each [Index] < 42),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Filtered Rows\",{{\"Idade\", \"Faixa Etária\"}})",
+                "in",
+                "    #\"Renamed Columns1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Anúncios Campanha",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Index",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "de84bdd8-c88d-43d4-ae2f-6fc5af3f3df0",
+            "sourceColumn": "Index",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Conjunto de Anúncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1d29584b-72e9-49f6-bd0d-6740bd3512d7",
+            "sourceColumn": "Conjunto de Anúncio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Anúncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a20ef5d3-15e0-457f-8e49-0b1a8e622122",
+            "sourceColumn": "Anúncio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Faixa Etária",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "312ea3e3-c8d4-4210-9485-fe077dd805d9",
+            "sourceColumn": "Faixa Etária",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gênero",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f66cee3-8e24-4c8a-b318-8b961f10f966",
+            "sourceColumn": "Gênero",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Alcance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "781a05b5-b85b-4b15-b059-fb7b58930fc0",
+            "sourceColumn": "Alcance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Impressões",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5061bd77-7e43-4b99-9bc5-8ac0da0d44d4",
+            "sourceColumn": "Impressões",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Frequência",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "993bcae3-0454-4dfe-8b5e-cfac4ac44758",
+            "sourceColumn": "Frequência",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tipo de resultado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "afbb53e1-a962-4ee1-b5a2-c537115e86a2",
+            "sourceColumn": "Tipo de resultado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Resultados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f81aa41e-740f-45f0-971a-5f2c72c68d26",
+            "sourceColumn": "Resultados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Valor usado (BRL)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "23d70145-a04d-4b21-a743-2f7bfd942fdc",
+            "sourceColumn": "Valor usado (BRL)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Custo por resultado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "472059e9-aeae-401e-a213-d3987b7a3ada",
+            "sourceColumn": "Custo por resultado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CPC (custo por clique no link)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "58e2d302-15cd-4be2-ae8d-07d9c3ab6cca",
+            "sourceColumn": "CPC (custo por clique no link)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CPM (custo por 1.000 impressões)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4b721521-7d69-482a-88fe-d8db373918e8",
+            "sourceColumn": "CPM (custo por 1.000 impressões)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cliques no link",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f70cc43-d33c-44f2-bc64-f886fad535b6",
+            "sourceColumn": "Cliques no link",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Seguidores ou curtidas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0480d172-7563-4328-bda3-abc72efa420c",
+            "sourceColumn": "Seguidores ou curtidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Engajamento com a Página",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "da6cb18f-add7-4b5a-85e2-eaca718be5ad",
+            "sourceColumn": "Engajamento com a Página",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CPC (todos)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4c90dca4-c535-45e5-9ca3-be7c9266c6b9",
+            "sourceColumn": "CPC (todos)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ThruPlays",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0472a494-94a7-4eeb-a767-e9c33553de16",
+            "sourceColumn": "ThruPlays",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CTR (todos)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "66aa4945-c009-4af2-8d87-f257ad5d6dce",
+            "sourceColumn": "CTR (todos)",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "26d5cbe0-c39b-4ef8-bd1f-985b0f8e98ca",
+        "partitions": [
+          {
+            "name": "Anúncios Campanha",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"D:\\Holística - Matheus (Backup Março 2024)\\Projetos\\Projetos PowerBI\\Campanha - Um Novo Ciclo\\Um-Novo-Ciclo.xlsx\"), null, true),",
+                "    #\"Raw Data Report_Sheet\" = Source{[Item=\"Raw Data Report\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Raw Data Report_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Nome da campanha\", type text}, {\"Nome do conjunto de anúncios\", type text}, {\"Idade\", type text}, {\"Gênero\", type text}, {\"Nome do anúncio\", type text}, {\"Status de veiculação\", type text}, {\"Nível de veiculação\", type text}, {\"Alcance\", Int64.Type}, {\"Impressões\", Int64.Type}, {\"Frequência\", type number}, {\"Configuração de atribuição\", type text}, {\"Tipo de resultado\", type text}, {\"Resultados\", Int64.Type}, {\"Valor usado (BRL)\", type number}, {\"Custo por resultado\", type number}, {\"Início\", type date}, {\"Término\", type text}, {\"CPC (custo por clique no link)\", type text}, {\"CPM (custo por 1.000 impressões)\", type number}, {\"Cliques no link\", type text}, {\"Seguidores ou curtidas\", Int64.Type}, {\"Engajamento com a Página\", Int64.Type}, {\"CPC (todos)\", type number}, {\"ThruPlays\", Int64.Type}, {\"CTR (todos)\", type number}, {\"Início dos relatórios\", type date}, {\"Término dos relatórios\", type date}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Conjunto de Anúncio\", each if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 01\") then \"Conjunto 1\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 02\") then \"Conjunto 2\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 03\") then \"Conjunto 3\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 04\") then \"Conjunto 4\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 05\") then \"Conjunto 5\" else if Text.StartsWith([Nome do conjunto de anúncios], \"CJ 06\") then \"Conjunto 6\" else null),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Conditional Column\",{\"Nome da campanha\", \"Nome do conjunto de anúncios\", \"Conjunto de Anúncio\", \"Nome do anúncio\", \"Idade\", \"Gênero\", \"Status de veiculação\", \"Nível de veiculação\", \"Alcance\", \"Impressões\", \"Frequência\", \"Configuração de atribuição\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"Início\", \"Término\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\", \"Início dos relatórios\", \"Término dos relatórios\"}),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Reordered Columns\",{{\"Nome do conjunto de anúncios\", Order.Ascending}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Sorted Rows\",{\"Nome do conjunto de anúncios\", \"Nome da campanha\"}),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Removed Columns\", \"Anúncio\", each if Text.EndsWith([Nome do anúncio], \"Ciclo\") then \"Ad Completo\" else if Text.Contains([Nome do anúncio], \"curto\") then \"Ad Curto\" else if Text.Contains([Nome do anúncio], \"Atletas\") then \"Ad Atletas\" else if Text.Contains([Nome do anúncio], \"Prévia\") then \"Ad Prévia\" else if Text.Contains([Nome do anúncio], \"Lab\") then \"Ad Laboratório\" else null),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Added Conditional Column1\",{\"Início dos relatórios\", \"Término dos relatórios\", \"Configuração de atribuição\", \"Status de veiculação\", \"Nível de veiculação\"}),",
+                "    #\"Reordered Columns1\" = Table.ReorderColumns(#\"Removed Columns1\",{\"Conjunto de Anúncio\", \"Nome do anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"Início\", \"Término\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Removed Columns2\" = Table.RemoveColumns(#\"Reordered Columns1\",{\"Nome do anúncio\", \"Início\", \"Término\"}),",
+                "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Removed Columns2\", \"Gênero PT\", each if [Gênero] = \"male\" then \"Homem\" else if [Gênero] = \"female\" then \"Mulher\" else if [Gênero] = \"unknown\" then \"Desconhecido\" else null),",
+                "    #\"Reordered Columns2\" = Table.ReorderColumns(#\"Added Conditional Column2\",{\"Conjunto de Anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Gênero PT\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Removed Columns3\" = Table.RemoveColumns(#\"Reordered Columns2\",{\"Gênero\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns3\",{{\"Gênero PT\", \"Gênero\"}}),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Renamed Columns\", \"Index\", 1, 1, Int64.Type),",
+                "    #\"Reordered Columns3\" = Table.ReorderColumns(#\"Added Index\",{\"Index\", \"Conjunto de Anúncio\", \"Anúncio\", \"Idade\", \"Gênero\", \"Alcance\", \"Impressões\", \"Frequência\", \"Tipo de resultado\", \"Resultados\", \"Valor usado (BRL)\", \"Custo por resultado\", \"CPC (custo por clique no link)\", \"CPM (custo por 1.000 impressões)\", \"Cliques no link\", \"Seguidores ou curtidas\", \"Engajamento com a Página\", \"CPC (todos)\", \"ThruPlays\", \"CTR (todos)\"}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns3\", each [Index] >= 42),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Filtered Rows\",{{\"Idade\", \"Faixa Etária\"}})",
+                "in",
+                "    #\"Renamed Columns1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
