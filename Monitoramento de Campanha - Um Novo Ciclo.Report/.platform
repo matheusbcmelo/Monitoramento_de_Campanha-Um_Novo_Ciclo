@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "SemanticModel",
-    "displayName": "Campanha - Um Novo Ciclo"
+    "type": "Report",
+    "displayName": "Monitoramento de Campanha - Um Novo Ciclo"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "4f5310e2-658f-4bda-a1f0-03045f52341b"
+    "logicalId": "c6b832a4-db79-4291-8ad1-0bc4bafe9312"
   }
 }

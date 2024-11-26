@@ -2,7 +2,7 @@
   "version": "4.0",
   "datasetReference": {
     "byPath": {
-      "path": "../Campanha - Um Novo Ciclo.SemanticModel"
+      "path": "../Monitoramento de Campanha - Um Novo Ciclo.SemanticModel"
     },
     "byConnection": null
   }
