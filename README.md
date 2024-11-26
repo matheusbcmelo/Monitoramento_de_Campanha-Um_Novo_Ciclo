@@ -23,28 +23,28 @@ Localidade: Foco na região da Baixada Santista.
 ## 📈 Dados Analisados
 Os dados coletados e analisados no projeto incluem:
 
-Impressões: Número total de exibições dos anúncios.
+**Impressões:** Número total de exibições dos anúncios.
 
-Alcance: Número total de pessoas impactadas pelos anúncios.
+**Alcance:** Número total de pessoas impactadas pelos anúncios.
 
-Engajamento: Engajamento gerado pelos anúncios.
+**Engajamento:** Engajamento gerado pelos anúncios.
 
-Distribuição Demográfica: Análise do público-alvo por faixa etária, gênero e localização.
+**Distribuição Demográfica:** Análise do público-alvo por faixa etária, gênero e localização.
 
-CPC (Custo por Cliques): Valor médio pago por cada clique nos anúncios.
+**CPC (Custo por Cliques):** Valor médio pago por cada clique nos anúncios.
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 As ferramentas usadas para análise e desenvolvimento do projeto incluem:
 
-Power BI: Para visualização e análise dos dados da campanha.
+**Power BI:** Para visualização e análise dos dados da campanha.
 
-Meta Ads Manager: Para coleta de dados e métricas da campanha.
+**Meta Ads Manager:** Para coleta de dados e métricas da campanha.
 
-Microsoft Excel: Para organização inicial dos dados.
+**Microsoft Excel:** Para organização inicial dos dados.
 
-GitHub: Para versionamento e compartilhamento do projeto.
+**GitHub:** Para versionamento e compartilhamento do projeto.
 
 ## 📧 Contato
 
